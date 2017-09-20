@@ -3,7 +3,7 @@
 Kudu
 ====
 
-Kudu - My personal [tmux][] configuration management plugin.
+Kudu - My personal [Tmux][] configuration management plugin.
 
 
 [tmux]: https://github.com/tmux/tmux
