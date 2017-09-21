@@ -3,8 +3,23 @@
 Kudu
 ====
 
-Kudu - My personal [Tmux][] configuration management plugin.
+Kudu - My personal [tmux][] configuration management plugin.
 
+Installation
+------------
+
+Requirements:
+
+* tmux `>= 2.1` running on ubuntu
+
+To install, run the following from your terminal: (you may want to backup your existing `~/.tmux.conf` first)
+
+``` shell
+$ cd && git clone https://github.com/japinl/kudu.git .kudu
+$ ln -sf .kudu/kudu.conf .tmux.conf
+```
+
+There are some custom [keybindings](./keybindings.md) in Kudu.
 
 [tmux]: https://github.com/tmux/tmux
 
