@@ -19,6 +19,12 @@ $ cd && git clone https://github.com/japinl/kudu.git .kudu
 $ ln -sf .kudu/kudu.conf .tmux.conf
 ```
 
+Optional, you can force to get 256 colors:
+
+``` shell
+$ echo "alias tmux='tmux -2'" >> ~/.bashrc
+```
+
 There are some custom [keybindings](./keybindings.md) in Kudu.
 
 [tmux]: https://github.com/tmux/tmux
