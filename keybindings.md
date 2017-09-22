@@ -6,6 +6,7 @@ I use emacs as my editor, but the tmux's prefix is conflict with it, so I use
 
  Keybindings | Means
 :------------|:-------
+ a           | Send a prefix key.
  R           | Reload configure file.
  h           | Select left pane of current pane.
  j           | Select bottom pane of current pane.
