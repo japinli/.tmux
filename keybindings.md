@@ -20,3 +20,4 @@ I use emacs as my editor, but the tmux's prefix is conflict with it, so I use
  v           | Split the current pane into two, left and right.
  C-s         | Create a new session.
  C-k         | Kill current session.
+ K           | Kill current window.
