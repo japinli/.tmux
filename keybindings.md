@@ -2,7 +2,7 @@ Kudu Keybindings
 ================
 
 I use emacs as my editor, but the tmux's prefix is conflict with it, so I use
-`Ctrl-Atl-m` as my tmux prefix key.
+`Alt-N` as my tmux prefix key.
 
  Keybindings | Means
 :------------|:-------
