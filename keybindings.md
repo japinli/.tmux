@@ -2,16 +2,12 @@ Kudu Keybindings
 ================
 
 I use emacs as my editor, but the tmux's prefix is conflict with it, so I use
-`Alt-N` as my tmux prefix key.
+`Alt-N` (i.e. press Alt+Shift+n) as my tmux prefix key.
 
  Keybindings | Means
 :------------|:-------
  a           | Send a prefix key.
  R           | Reload configure file.
- h           | Select left pane of current pane.
- j           | Select bottom pane of current pane.
- k           | Select top pane of current pane.
- l           | Select right pane of current pane.
  n           | Go to the next window.
  p           | Go to the previous window.
  c           | Create a new window.
@@ -21,3 +17,15 @@ I use emacs as my editor, but the tmux's prefix is conflict with it, so I use
  C-s         | Create a new session.
  C-k         | Kill current session.
  K           | Kill current window.
+ h           | Select left pane of current pane.
+ j           | Select bottom pane of current pane.
+ k           | Select top pane of current pane.
+ l           | Select right pane of current pane.
+ M-h         | Resize current pane left five lines.
+ M-j         | Resize current pane down five lines.
+ M-k         | Resize current pane up five lines.
+ M-l         | Resize current pane right five lines.
+ C-h         | Resize current pane down one line.
+ C-j         | Resize current pane down one line.
+ C-k         | Resize current pane up one line.
+ C-l         | Resize current pane right one line.
