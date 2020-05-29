@@ -34,6 +34,12 @@ $ sudo mv tmux /etc/bash_completion.d/
 
 There are some custom [keybindings](./keybindings.md) in Kudu.
 
+Note
+====
+
+On MacOS, I change the `left option` key to `ESC+` in `profiles -> Keys` for iTerm2.
+
+
 [tmux]: https://github.com/tmux/tmux
 [tmux-bash-completion]: https://github.com/imomaliev/tmux-bash-completion
 
