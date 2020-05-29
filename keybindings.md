@@ -14,6 +14,7 @@ I use emacs as my editor, but the tmux's prefix is conflict with it, so I use
  S           | Create a new window and connect it by ssh.
  V           | Split the current pane into two, top and bottom.
  v           | Split the current pane into two, left and right.
+ y           | s__y__nchronize panes.
  C-s         | Create a new session.
  C-k         | Kill current session.
  K           | Kill current window.
