@@ -49,7 +49,7 @@ I use emacs as my editor, but the tmux's prefix is conflict with it, so I use
  V           | Split the current pane into two, top and bottom.
  v           | Split the current pane into two, left and right.
  y           | synchronize panes.
- C-s         | Create a new session.
+ C-n         | Create a new session.
  C-k         | Kill current session.
  K           | Kill current window.
  h           | Select left pane of current pane.
