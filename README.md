@@ -12,22 +12,23 @@ Requirements:
 
 * tmux `>= 2.1` running on ubuntu
 
-To install, run the following from your terminal: (you may want to backup your existing `~/.tmux.conf` first)
+To install, run the following from your terminal: (you may want to backup
+your existing `~/.tmux.conf` firstly)
 
-``` shell
+```bash
 $ cd && git clone https://github.com/japinli/.tmux.git
 $ ln -sf .tmux/tmux.conf .tmux.conf
 ```
 
 Optional, you can force to get 256 colors:
 
-``` shell
+```bash
 $ echo "alias tmux='tmux -2'" >> ~/.bashrc
 ```
 
 To use shell completion for tmux, you can use [tmux-bash-completion][].
 
-```
+```bash
 $ wget https://raw.githubusercontent.com/imomaliev/tmux-bash-completion/master/completions/tmux
 $ sudo mv tmux /etc/bash_completion.d/
 ```
@@ -38,32 +39,23 @@ Keybindings
 I use emacs as my editor, but the tmux's prefix is conflict with it, so I use
 `Alt-N` (i.e. press Alt+Shift+n) as my tmux prefix key.
 
- Keybindings | Means
-:------------|:-------
- a           | Send a prefix key.
- R           | Reload configure file.
- n           | Go to the next window.
- p           | Go to the previous window.
- c           | Create a new window.
- S           | Create a new window and connect it by ssh.
- V           | Split the current pane into two, top and bottom.
- v           | Split the current pane into two, left and right.
- y           | synchronize panes.
- C-n         | Create a new session.
- C-k         | Kill current session.
- K           | Kill current window.
- h           | Select left pane of current pane.
- j           | Select bottom pane of current pane.
- k           | Select top pane of current pane.
- l           | Select right pane of current pane.
- M-h         | Resize current pane left five lines.
- M-j         | Resize current pane down five lines.
- M-k         | Resize current pane up five lines.
- M-l         | Resize current pane right five lines.
- C-h         | Resize current pane down one line.
- C-j         | Resize current pane down one line.
- C-k         | Resize current pane up one line.
- C-l         | Resize current pane right one line.
+| Key Bindings | Description
+|:-------------|:------------------------------------------------------------
+| <prefix> R   | Reload configure file.
+| <prefix> h   | Select left pane of current pane.
+| <prefix> j   | Select bottom pane of current pane.
+| <prefix> k   | Select top pane of current pane.
+| <prefix> l   | Select right pane of current pane.
+| <prefix> c   | Create a new window.
+| <prefix> n   | Go to the next window.
+| <prefix> p   | Go to the previous window.
+| <prefix> a   | Send a prefix key.
+| <prefix> K   | Kill current window.
+| <prefix> v   | Split the current pane into two, left and right.
+| <prefix> V   | Split the current pane into two, top and bottom.
+| <prefix> C-k | kill current session.
+| <prefix> C-n | Create a new session with prompt.
+| <prefix> C-s | Synchronize panes.
 
 
 Note
