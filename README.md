@@ -56,6 +56,7 @@ I use emacs as my editor, but the tmux's prefix is conflict with it, so I use
 | <prefix> C-k | kill current session.
 | <prefix> C-n | Create a new session with prompt.
 | <prefix> C-s | Synchronize panes.
+| <prefix> C-p | Popup a python interpreter.
 
 
 Note
