@@ -39,24 +39,25 @@ Keybindings
 I use emacs as my editor, but the tmux's prefix is conflict with it, so I use
 `Alt-N` (i.e. press Alt+Shift+n) as my tmux prefix key.
 
-| Key Bindings | Description
-|:-------------|:------------------------------------------------------------
-| <prefix> R   | Reload configure file.
-| <prefix> h   | Select left pane of current pane.
-| <prefix> j   | Select bottom pane of current pane.
-| <prefix> k   | Select top pane of current pane.
-| <prefix> l   | Select right pane of current pane.
-| <prefix> c   | Create a new window.
-| <prefix> n   | Go to the next window.
-| <prefix> p   | Go to the previous window.
-| <prefix> a   | Send a prefix key.
-| <prefix> K   | Kill current window.
-| <prefix> v   | Split the current pane into two, left and right.
-| <prefix> V   | Split the current pane into two, top and bottom.
-| <prefix> C-k | kill current session.
-| <prefix> C-n | Create a new session with prompt.
-| <prefix> C-s | Synchronize panes.
-| <prefix> C-p | Popup a python interpreter.
+| Key Bindings | Description                                      |
+|:-------------|:-------------------------------------------------|
+| R            | Reload configure file.                           |
+| h            | Select left pane of current pane.                |
+| j            | Select bottom pane of current pane.              |
+| k            | Select top pane of current pane.                 |
+| l            | Select right pane of current pane.               |
+| c            | Create a new window.                             |
+| n            | Go to the next window.                           |
+| p            | Go to the previous window.                       |
+| a            | Send a prefix key.                               |
+| K            | Kill current window.                             |
+| O            | Choose the pane.                                 |
+| v            | Split the current pane into two, left and right. |
+| V            | Split the current pane into two, top and bottom. |
+| C-k          | kill current session.                            |
+| C-n          | Create a new session with prompt.                |
+| C-s          | Synchronize panes.                               |
+| C-p          | Popup a python interpreter.                      |
 
 Colors
 ------
