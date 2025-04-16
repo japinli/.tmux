@@ -11,13 +11,13 @@ Installation
 Requirements:
 
 * tmux `>= 2.1` running on ubuntu
+* fzf `>= 0.44.1`
 
 To install, run the following from your terminal: (you may want to backup
 your existing `~/.tmux.conf` firstly)
 
 ```bash
-$ cd && git clone https://github.com/japinli/.tmux.git
-$ ln -sf .tmux/tmux.conf .tmux.conf
+$ cd && git clone https://github.com/japinli/.tmux.git $HOME/.config/tmux
 ```
 
 Optional, you can force to get 256 colors:
